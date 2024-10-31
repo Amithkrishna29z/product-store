@@ -1,11 +1,11 @@
 # Product Store
 
-Product Store is a full-stack application that allows users to manage products. Built with Express and MongoDB for the backend and React (or similar) for the frontend, the app includes essential features for creating, reading, updating, and deleting (CRUD) product data.
+Product Store is a full-stack application that allows users to manage products. Built with Express and MongoDB for the backend and React for the frontend, the app includes essential features for creating, reading, updating, and deleting (CRUD) product data.
 
 ## Features
 
 - **Backend**: Node.js, Express, MongoDB with Mongoose ODM for data management.
-- **Frontend**: (Specify if using React, Vue, etc.) with a responsive UI to display and interact with products.
+- **Frontend**: React with a responsive UI to display and interact with products.
 - **Data Storage**: Stores product information, including name, price, image, and created date.
 - **RESTful API**: Provides endpoints for product operations (add, fetch, delete, update).
 - **State Management**: Uses Zustand to manage and share product data across the app.
@@ -48,8 +48,8 @@ Product Store is a full-stack application that allows users to manage products. 
 
 ### API Endpoints
 
-- **GET /api/products:**: Fetch all products.
-- **POST /api/products:**: Add a new product.
+- **GET /api/products**: Fetch all products.
+- **POST /api/products**: Add a new product.
 - **PUT /api/products/**: Update a product by ID.
 - **DELETE /api/products/**: Delete a product by ID.
 
@@ -57,5 +57,5 @@ Product Store is a full-stack application that allows users to manage products. 
 ### Technologies
 
 - **Backend**: Node.js, Express, MongoDB, Mongoose
-- **Frontend**: Chakra UI (or another styling library), Zustand (for state management)
+- **Frontend**: Chakra UI ( styling library), Zustand (for state management)
 - **Dev Tools**: Nodemon, cross-env
