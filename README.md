@@ -21,7 +21,7 @@ Product Store is a full-stack application that allows users to manage products. 
 
 1. **Clone the repository**:
    
-   git clone https://github.com/yourusername/product-store.git
+   git clone https://github.com/amithkrishna29z/product-store.git
 
 2. **Install dependencies**:
 
