@@ -107,7 +107,8 @@ function ProductCard({ product }) {
             icon={<DeleteIcon />}
             onClick={() => handleDeleteProduct(product._id)}
             colorScheme="red"
-            size={{ base: "lg", md: "md" }}
+            size={{base:"lg",md:"md"}}
+            
           />
         </HStack>
       </Box>
