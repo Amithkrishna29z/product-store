@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: product-store-backend
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm run start"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false # Add your MongoDB URI here or in Render's Environment tab
+    disk:
+      name: data
+      mountPath: /var/data
+
+  - type: static
+    name: product-store-frontend
+    env: static
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: frontend/dist
+    publishPath: /frontend/dist
