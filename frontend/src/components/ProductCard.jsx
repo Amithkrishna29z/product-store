@@ -101,11 +101,13 @@ function ProductCard({ product }) {
           Rs:{product.price}
         </Text>
         <HStack spacing={2}>
-          <IconButton icon={<EditIcon />} onClick={onOpen} colorScheme="blue" />
+          <IconButton icon={<EditIcon />} onClick={onOpen} colorScheme="blue" 
+          size={{base:"lg",md:"md"}}/>
           <IconButton
             icon={<DeleteIcon />}
             onClick={() => handleDeleteProduct(product._id)}
             colorScheme="red"
+            size={{ base: "lg", md: "md" }}
           />
         </HStack>
       </Box>
